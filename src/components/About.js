@@ -1,8 +1,6 @@
 import React from "react";
 import TechStackBar from "./TechStackBar";
-// import FavThings from "../assets/images/tg-things.png";
 import FavThings from "./FavThings";
-
 
 export default function About() {
   return (
