@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 export default function Content() {
   return (
-    <div className="h-screen overflow-y-scroll no-scrollbar">
+    <div className="md:h-screen md:overflow-y-scroll no-scrollbar">
       <Splash />
       <About />
       <Projects />
