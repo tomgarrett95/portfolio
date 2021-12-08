@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/images/TG-logo.png";
+import CV from "../assets/docs/tom-garrett-cv.pdf"
 
 
 export default function Sidebar() {
@@ -43,6 +44,10 @@ export default function Sidebar() {
            }}
            className="block m-2 pr-0.5 pl-0.5 transform duration-500 hover:text-teal-light hover:scale-110">
             Contact Me
+        </a>
+        <a href={ CV }
+           className="block m-2 pr-0.5 pl-0.5 transform duration-500 hover:text-teal-light hover:scale-110">
+            CV
         </a>
       </div>
     </nav>

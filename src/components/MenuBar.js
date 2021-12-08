@@ -3,6 +3,7 @@ import { Popover, Transition } from '@headlessui/react';
 import { FiMenu } from "react-icons/fi";
 import { Fragment } from 'react';
 import Logo from '../assets/images/TG-logo.png';
+import CV from "../assets/docs/tom-garrett-cv.pdf"
 
 export default function MenuBar() {
   return (
@@ -70,6 +71,10 @@ export default function MenuBar() {
                       }}
                       className="font-Kreon text-xl text-teal transform duration-500 hover:scale-110 hover:text-teal-dark">
                         Contact Me
+                    </a>
+                    <a href={ CV }
+                      className="font-Kreon text-xl text-teal transform duration-500 hover:scale-110 hover:text-teal-dark">
+                        CV
                     </a>
                   </div>
                 </div>
