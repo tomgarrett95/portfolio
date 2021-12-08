@@ -16,8 +16,8 @@ export default function Splash() {
            e.preventDefault();  // Stop Page Reloading
            about && about.scrollIntoView({behavior: "smooth"});
            }} 
-           className="absolute bottom-5">
-          <FaChevronDown className="text-5xl transform duration-500 hover:text-teal-light hover:scale-110"/>
+           className="absolute bottom-16">
+          <FaChevronDown className="text-5xl animate-bounce transform duration-500 hover:text-teal-light hover:scale-110"/>
         </a>
         </div>
       </div>
