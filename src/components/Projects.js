@@ -38,7 +38,7 @@ export default function Projects() {
           <ProjectCardNotLive 
           title="iO Academy Aptitude Test"
           tech="React Bootstrap Sass"
-          description="Through the use of an API and legacy code, we used React to recreate an existing application used by iO Academy to test applicants’ aptitude. I worked on the administration page, where I created a form for new applicants to be added to a database. Through the use of the useEffect hook and custom regex, I was able to sanitise and validate user input against the API to prevent duplicate entries." 
+          description="With the help of an API and legacy code, we used React to recreate an existing application used by iO Academy to test applicants’ aptitude. I worked on the administration page, where I created a form for new applicants to be added to a database. By making utilising the useEffect hook and custom regex, I was able to sanitise and validate user input against the API to prevent duplicate entries." 
           github="https://github.com/iO-Academy/aptitude-test-react" 
           img={AptitudeTest} 
           alt="iO Academy Aptitude Test screenshot" />
