@@ -1,7 +1,6 @@
 import React from "react";
 import { SiGithub } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
-import { SiFrontendmentor } from "react-icons/si";
 
 export default function SocialLinksBar() {
   return (

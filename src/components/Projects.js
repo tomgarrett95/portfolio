@@ -1,10 +1,11 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import ProjectCardNotLive from "./ProjectCardNotLive"
-import Transformers from "../assets/images/transformers-app.png"
-import NOTLD from "../assets/images/notld.png"
-import AcademyPortal from "../assets/images/academy-portal.png"
-import AptitudeTest from "../assets/images/academy-aptitude-test.png"
+import ProjectCardNotLive from "./ProjectCardNotLive";
+import Transformers from "../assets/images/transformers-app.png";
+import NOTLD from "../assets/images/notld.png";
+import AcademyPortal from "../assets/images/academy-portal.png";
+import AptitudeTest from "../assets/images/academy-aptitude-test.png";
+import TimeTrackingDashboard from "../assets/images/time-tracking-dashboard.png";
 
 export default function Projects() {
   return (
@@ -35,13 +36,21 @@ export default function Projects() {
           github="https://github.com/iO-Academy/AcademyPortal" 
           img={AcademyPortal} 
           alt="iO Academy Portal screenshot" />
-          <ProjectCardNotLive 
+        <ProjectCardNotLive 
           title="iO Academy Aptitude Test"
           tech="React Bootstrap Sass"
           description="With the help of an API and legacy code, we used React to recreate an existing application used by iO Academy to test applicants’ aptitude. I worked on the administration page, where I created a form for new applicants to be added to a database. By making utilising the useEffect hook and custom regex, I was able to sanitise and validate user input against the API to prevent duplicate entries." 
           github="https://github.com/iO-Academy/aptitude-test-react" 
           img={AptitudeTest} 
           alt="iO Academy Aptitude Test screenshot" />
+        <ProjectCard
+          title="Time Tracking Dashboard"
+          tech="HTML CSS JavaScript"
+          description="This is my solution to a challenge from Frontend Mentor's excellent resources. The page is interactive and responsive, with it possible to change the values of the cards by clicking on the 'daily', 'weekly', and 'monthly' options."
+          github="https://github.com/tomgarrett95/time-tracking-dashboard"
+          live="https://tomgarrett95.github.io/time-tracking-dashboard/"
+          img={TimeTrackingDashboard} 
+          alt="Time Tracking Dashboard screenshot" />
       </div>
     </section>
   )
