@@ -3,7 +3,7 @@ import { FaChevronDown } from "react-icons/fa";
 
 export default function Splash() {
   return (
-    <header id="splash" className="h-screen bg-splashImage bg-fixed bg-cover w-auto text-offWhite">
+    <header id="splash" className="h-screen bg-splashImage md:bg-fixed bg-cover w-auto text-offWhite">
       <div className="bg-teal-dark bg-opacity-60 h-full w-full flex flex-col justify-center p-16 relative">
         <div className="divide-y divide-offWhite">
           <h1 className="font-Kreon text-6xl md:text-7xl">Tom Garrett</h1>
